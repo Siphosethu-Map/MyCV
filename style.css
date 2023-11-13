@@ -1,0 +1,41 @@
+body{
+    width: 70%;
+    margin:auto
+}
+
+#container{
+    display: grid;
+    background-color: rgb(195, 195, 195, 0.5)
+}
+
+header{
+    text-align: left;
+    grid-column: 2/13;
+    grid-row: 1;
+    margin-left: 5%
+}
+
+header h2:nth-child(1){
+    font-size: 250%;
+}
+
+main{
+    grid-column: 2/13;
+    font-size: medium;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+aside{
+    grid-column: 1/2;
+    grid-row: 2;
+    background-color: #006347;
+    text-align: left;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+
+aside h3{
+    margin-left: 8%;
+}
